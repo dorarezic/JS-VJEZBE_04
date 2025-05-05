@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8" />
+<title>JS osnove</title>
+</head>
+<body>
+
+<script type="text/javascript">
+ let n = 200; // ovdje mozemo staviti bilo koji broj, npr. 300, 458, itd.
+  let suma = 0;
+  let brojBrojeva = 0;
+  let i = 1;
+
+  while (i <= n) 
+  {
+    suma += i;
+    brojBrojeva++;
+    i++;
+  }
+
+  let aritmetickaSredina = suma / brojBrojeva;
+
+  document.write("Aritmetička sredina brojeva od 1 do " + n + " je: " + aritmetickaSredina.toFixed(2));
+  console.log("Aritmetička sredina = " + aritmetickaSredina); //ispis u konzoli
+</script>
+</body>
+</html>
